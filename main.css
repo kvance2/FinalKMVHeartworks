@@ -1,20 +1,46 @@
 @charset "UTF-8";
 /* CSS Document */
 
-header {background-color: lightskyblue;
+.header {background-color: lightskyblue;
 text-align: center;
 padding: 20px;
 }
 
-header2 {background-color: plum;
+.header2 {background-color: plum;
 text-align: center;
 padding: 20px;
 }
 
-header3 {background-color: lightcoral;
+.header3 {background-color: lightcoral;
 text-align: center;
 padding: 20px;}
 
-header4 {background-color: lightgray;
+.header4 {background-color: lightgray;
 text-align: center;
 padding: 20px;}
+
+.header5 {background-color: lavenderblush;
+text-align: center;
+padding: 20px;}
+
+/*style the top navigation bar */
+.topnav {
+	overflow: hidden;
+background-color: aliceblue;
+	margin: auto;
+	text-align: center;
+}
+
+/*style the topnav links*/
+.topnav a {
+	float: inherit;
+	text-align: center;
+display: inline-flex;
+color: coral;
+padding: 15px 40px;
+text-decoration: none;}
+/* change color on hover */
+.topnav a:hover{
+	background-color: plum;
+	color: aliceblue;
+}
