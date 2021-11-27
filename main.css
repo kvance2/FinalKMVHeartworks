@@ -1,3 +1,20 @@
 @charset "UTF-8";
 /* CSS Document */
 
+header {background-color: lightskyblue;
+text-align: center;
+padding: 20px;
+}
+
+header2 {background-color: plum;
+text-align: center;
+padding: 20px;
+}
+
+header3 {background-color: lightcoral;
+text-align: center;
+padding: 20px;}
+
+header4 {background-color: lightgray;
+text-align: center;
+padding: 20px;}
