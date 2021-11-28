@@ -11,7 +11,7 @@ padding: 20px;
 font-weight: 400;
 font-size: 23px;
 font-style: normal;
-color: purple;
+color: slateblue;
 }
 
 .header2 {background-image: linear-gradient(mediumpurple,plum,white);
@@ -104,3 +104,16 @@ text-decoration: none;}
 	font-size: 20px;
 }
 
+.column img {
+	margin-top: 10px;
+	vertical-align: middle;
+	margin-bottom: 10px;
+}
+
+.logo {
+	align-items: center;
+}
+
+.column2  {
+	text-align-last: center;
+}
