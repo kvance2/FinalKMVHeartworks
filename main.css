@@ -1,33 +1,67 @@
 @charset "UTF-8";
 /* CSS Document */
 
-.header { background-color: transparent;
+.header {
+	background-image: linear-gradient(mediumturquoise, paleturquoise, white);
 text-align: center;
 padding: 20px;
 }
 
 .header {font-family: scriptorama-tradeshow-jf,sans-serif;
 font-weight: 400;
+font-size: 23px;
 font-style: normal;
-font-color: purple;
+color: purple;
 }
 
-.header2 {background-color: plum;
+.header2 {background-image: linear-gradient(mediumpurple,plum,white);
 text-align: center;
 padding: 20px;
 }
 
-.header3 {background-color: lightcoral;
+.header2 {
+font-family: alkaline,sans-serif;
+	font-size: 23px;
+font-weight: 700;
+font-style: normal;
+color: darkslateblue;
+}
+
+.header3 {background-image: linear-gradient(coral,pink,white);
 text-align: center;
 padding: 20px;}
 
-.header4 {background-color: lightgray;
+.header3 {
+font-family: alkaline,sans-serif;
+	font-size: 23px;
+font-weight: 700;
+font-style: normal;
+color: darkslategrey;
+}
+
+.header4 {background-image: linear-gradient(darkgray,gray,white);
 text-align: center;
 padding: 20px;}
 
-.header5 {background-color: lavenderblush;
+.header4 {
+font-family: alkaline,sans-serif;
+	font-size: 23px;
+font-weight: 700;
+font-style: normal;
+color: black;
+}
+
+.header5 {background-image: linear-gradient(lavender,lavenderblush,white);
 text-align: center;
 padding: 20px;}
+
+.header5 {
+font-family: alkaline,sans-serif;
+	font-size: 23px;
+font-weight: 700;
+font-style: normal;
+color: darkslateblue;
+}
 
 /*style the top navigation bar */
 .topnav {
@@ -70,8 +104,3 @@ text-decoration: none;}
 	font-size: 20px;
 }
 
-#grad1 {
-	height: 200px;
-	background-color: aliceblue; /* for browsers that do not support gradients */
-	background-image: linear-gradient(mediumturquoise, paleturquoise, white);
-}
