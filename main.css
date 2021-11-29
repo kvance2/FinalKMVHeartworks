@@ -110,10 +110,109 @@ text-decoration: none;}
 	margin-bottom: 10px;
 }
 
-.logo {
-	align-items: center;
+/* create two unequal columns that float next to eachother */
+
+.row {
+	float: left;
+	padding: 10px;
 }
 
-.column2  {
-	text-align-last: center;
+/* left and right column */
+.side.column {
+	width: 50%;
+	float: left;
 }
+
+.right.column {
+	float: right;
+	width: 40%;
+text-align: right;
+	color: slateblue;
+	font-size: 20px;
+}
+
+
+/* clear floats after the columns */
+.row:after {
+	content:"";
+	display: table;
+	clear: both;
+}
+
+/* create two unequal columns that float next to eachother */
+
+.row1 {
+	float: left;
+	padding: 20px;
+}
+
+/* left and right column */
+.side.column1 {
+	width: 50%;
+	float: left;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	object-fit: contain;
+	
+}
+
+.right.column1 {
+	float: right;
+	width: 40%;
+text-align: right;
+	color: orangered;
+	font-size: 20px;
+}
+
+
+/* clear floats after the columns */
+.row1:after {
+	content:"";
+	display: table;
+	clear: both;
+}
+
+.column2 img {
+	margin-top: 20px;
+	vertical-align: middle;
+	margin-bottom: 20px;
+}
+
+/* create two unequal columns that float next to eachother */
+
+.row3 {
+	float: left;
+	padding: 20px;
+}
+
+/* left and right column */
+.side.column3 {
+	width: 50%;
+	float: left;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	object-fit: contain;
+	
+}
+
+.right.column3 {
+	float: right;
+	width: 40%;
+text-align: right;
+	color: darkslategrey;
+	font-size: 20px;
+}
+
+
+/* clear floats after the columns */
+.row3:after {
+	content:"";
+	display: table;
+	clear: both;
+}	
