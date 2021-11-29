@@ -215,4 +215,40 @@ text-align: right;
 	content:"";
 	display: table;
 	clear: both;
-}	
+}
+
+.flex-container1 {
+	display: inline-flex;
+	background-color: white;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.flex-container1 > div {
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	background-color: white;
+	color: plum;
+	margin: 10px;
+	padding: 40px 20px;
+	font-size: 20px;
+}
+
+.flex-container2 {
+	justify-content: center;
+	padding: 5px;
+}
+.flex-container2 h5 {
+	text-align: center;
+	font-size: 20px;
+	color: plum;
+}
+
+/* Style the footer */
+.footer {
+  background-color: aliceblue;
+  padding: 20px;
+  text-align: center;
+}
